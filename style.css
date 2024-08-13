@@ -1,0 +1,51 @@
+* {
+
+}
+
+section{
+    height: 97vh;
+    display: flex;
+
+}
+
+.corpo{
+    display: flex;
+    background-color: rgb(110, 110, 110);
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 13px;
+    margin: auto;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 10px;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+#sinal{
+    background-color: orange;
+}
+
+#num{
+    background-color: rgb(148, 148, 148);
+}
+
+#especial{
+    background-color: rgb(65, 65, 65);
+}
